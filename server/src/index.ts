@@ -6,9 +6,11 @@ const app: Application = express();
 const PORT = process.env.PORT || 7000;
 
 app.get('/', (req: Request, res: Response) => {
-    res.send('Hello World!');
+    res.send('It works!');
 });
 
 app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`);
 });
+
+// 3:01
